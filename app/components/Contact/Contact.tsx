@@ -1,6 +1,5 @@
 import React from "react";
 import Head from "next/head";
-import { Updock } from "next/font/google";
 import Link from "next/link";
 
 const QuestionsSection = () => {

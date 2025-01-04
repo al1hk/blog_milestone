@@ -1,7 +1,6 @@
 import React from "react";
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
-import Link from 'next/link';
 import Image from 'next/image';
 
 export default function Contact() {

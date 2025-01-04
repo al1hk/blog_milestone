@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "next/link";
 import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
 import About from "./components/About/About";

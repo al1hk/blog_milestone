@@ -1,7 +1,6 @@
 "use client"
 import React, { useState, ChangeEvent } from "react";
 import Image from 'next/image';  // Import Image from Next.js
-import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
 import Link from "next/link";
 
