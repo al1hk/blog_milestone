@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 const BlogMain = () => {
   return (
@@ -9,9 +10,11 @@ const BlogMain = () => {
           {/* Blog 1 */}
           <div className="group">
             <Link href="/blog/">
-              <img
-                src="/assets/Screenshot+2023-07-27+165928.png" // Replace with your actual image path
+              <Image
+                src="/assets/Screenshot+2023-07-27+165928.png"
                 alt="The Healing Power of Nature"
+                width={500}
+                height={256}
                 className="w-full h-64 object-cover rounded-md shadow-md group-hover:scale-105 transition-transform"
               />
             </Link>
@@ -24,9 +27,11 @@ const BlogMain = () => {
           {/* Blog 2 */}
           <div className="group">
             <Link href="/blog2/">
-              <img
+              <Image
                 src="/assets/the_beauty_of_biodiversity-exhibit.jpg"
                 alt="Exploring the Wonders of Forest Ecosystems"
+                width={500}
+                height={256}
                 className="w-full h-64 object-cover rounded-md shadow-md group-hover:scale-105 transition-transform"
               />
             </Link>
@@ -40,9 +45,11 @@ const BlogMain = () => {
           {/* Blog 3 */}
           <div className="group">
             <Link href="/blog3/">
-              <img
+              <Image
                 src="/assets/The Secret Life Of The Forest Se 2 Ep 1 03.jpg"
                 alt="How to Connect with Nature in Everyday Life"
+                width={500}
+                height={256}
                 className="w-full h-64 object-cover rounded-md shadow-md group-hover:scale-105 transition-transform"
               />
             </Link>
@@ -56,9 +63,11 @@ const BlogMain = () => {
           {/* Blog 4 */}
           <div className="group">
             <Link href="/blog4/">
-              <img
+              <Image
                 src="/assets/230727101602-01-crowded-us-national-parks-top.jpg"
                 alt="Top 5 Stunning Landscapes Around the World"
+                width={500}
+                height={256}
                 className="w-full h-64 object-cover rounded-md shadow-md group-hover:scale-105 transition-transform"
               />
             </Link>
@@ -72,9 +81,11 @@ const BlogMain = () => {
           {/* Blog 5 */}
           <div className="group">
             <Link href="/blog5/">
-              <img
+              <Image
                 src="/assets/1000_F_573925621_xLok082BkGovS1kMcV48dZlZleyxZhmu.jpg"
                 alt="Sustainable Living: Protecting Nature"
+                width={500}
+                height={256}
                 className="w-full h-64 object-cover rounded-md shadow-md group-hover:scale-105 transition-transform"
               />
             </Link>
@@ -88,9 +99,11 @@ const BlogMain = () => {
           {/* Blog 6 */}
           <div className="group">
             <Link href="/blog6/">
-              <img
+              <Image
                 src="/assets/service-1.jpg"
                 alt="The Importance of Biodiversity"
+                width={500}
+                height={256}
                 className="w-full h-64 object-cover rounded-md shadow-md group-hover:scale-105 transition-transform"
               />
             </Link>

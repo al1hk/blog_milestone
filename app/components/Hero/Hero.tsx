@@ -8,7 +8,13 @@ function Hero() {
 
             <main>
                 <div>
-                    <img className="absolute top-0 left-0 w-full h-full object-cover z-0" src="https://websitedemos.net/love-nature-02/wp-content/uploads/sites/988/2022/01/header-hero.jpg" alt="" />
+                    <Image
+                        className="absolute top-0 left-0 w-full h-full object-cover z-0"
+                        src="https://websitedemos.net/love-nature-02/wp-content/uploads/sites/988/2022/01/header-hero.jpg"
+                        alt="Nature background"
+                        layout="fill" // Ensures the image covers the container
+                        objectFit="cover" // Ensures the image is responsive and covers the area without distortion
+                    />
                 </div>
             </main>
             <div className="container mx-auto h-full flex flex-col items-center justify-center z-20 relative font-body">
@@ -17,7 +23,7 @@ function Hero() {
                     <p className='text-9xl mb-8 font-bold text-white'>n a t u r e</p>
                     <p className='text-4xl mb-8 font-bold text-white'> Look deep into nature, and you will
                     understand everything better.</p>
-                 <a href="#blog" className='bg-amber-300 text-black px-6 py-2 rounded-md hover:bg-amber-600 transition duration-300 shadow-lg text-2xl'>Explore</a>
+                    <a href="#blog" className='bg-amber-300 text-black px-6 py-2 rounded-md hover:bg-amber-600 transition duration-300 shadow-lg text-2xl'>Explore</a>
                 </div>
             </div>
         </div>

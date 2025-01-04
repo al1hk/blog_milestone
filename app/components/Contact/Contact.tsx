@@ -1,6 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import { Updock } from "next/font/google";
+import Link from "next/link";
 
 const QuestionsSection = () => {
   return (
@@ -42,9 +43,9 @@ const QuestionsSection = () => {
           className="mt-6 px-10 text-2xl py-2 bg-yellow-500 text-black font-semibold rounded hover:bg-yellow-600 font-body"
          
         >
-          <a href="/Contact/">
+          <Link href="/Contact/">
           Let’s  Talk  Now
-          </a>
+          </Link>
         </button>
       </div>
     </>
