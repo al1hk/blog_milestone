@@ -67,7 +67,7 @@ export default function Contact() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             <div>
               <Image
-                src="https://websitedemos.net/love-nature-02/wp-content/uploads/sites/988/2021/11/avatar_1.jpg" // Replace with team member images
+                src="/assets/avatar_1.jpg" // Replace with team member images
                 alt="Team Member"
                 width={300} // Adjust width as needed
                 height={300} // Adjust height as needed
@@ -76,7 +76,7 @@ export default function Contact() {
             </div>
             <div>
               <Image
-                src="https://websitedemos.net/love-nature-02/wp-content/uploads/sites/988/2021/11/avatar_2.jpg"
+                src="/assets/avatar_2.jpg"
                 alt="Team Member"
                 width={300}
                 height={300}
@@ -85,7 +85,7 @@ export default function Contact() {
             </div>
             <div>
               <Image
-                src="https://websitedemos.net/love-nature-02/wp-content/uploads/sites/988/2021/11/avatar_3.jpg"
+                src="/assets/avatar_3.jpg"
                 alt="Team Member"
                 width={300}
                 height={300}
@@ -94,7 +94,7 @@ export default function Contact() {
             </div>
             <div>
               <Image
-                src="https://websitedemos.net/love-nature-02/wp-content/uploads/sites/988/2021/11/avatar_4.jpg"
+                src="/assets/avatar_4.jpg"
                 alt="Team Member"
                 width={300}
                 height={300}
