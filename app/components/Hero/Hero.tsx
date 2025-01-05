@@ -10,7 +10,7 @@ function Hero() {
                 <div>
                     <Image
                         className="absolute top-0 left-0 w-full h-full object-cover z-0"
-                        src="https://websitedemos.net/love-nature-02/wp-content/uploads/sites/988/2022/01/header-hero.jpg"
+                        src="/assets/header-hero.jpg"
                         alt="Nature background"
                         layout="fill" // Ensures the image covers the container
                         objectFit="cover" // Ensures the image is responsive and covers the area without distortion
