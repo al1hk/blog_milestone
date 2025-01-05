@@ -31,7 +31,7 @@ export default function About() {
         {/* Image Section */}
         <div className="my-12">
           <Image
-            src="https://websitedemos.net/love-nature-02/wp-content/uploads/sites/988/2021/11/contact-hero-1024x525.jpg" // Replace with the image path
+            src="/assets/contact-hero-1024x525.jpg" // Replace with the image path
             alt="Nature"
             width={1024} // Specify the width
             height={525} // Specify the height
