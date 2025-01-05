@@ -25,7 +25,7 @@ const About = () => {
             <div className="flex-shrink-0">
                 <Image 
                     className="w-full max-w-md" 
-                    src="https://websitedemos.net/love-nature-02/wp-content/uploads/sites/988/2021/11/leaf.jpg" 
+                    src="/assets/leaf.jpg" 
                     alt="Leaf"
                     width={500}
                     height={500}
